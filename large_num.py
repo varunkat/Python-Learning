@@ -1,4 +1,4 @@
-x = None
+classx = None
 for i in [1,2,87,6,56]:
     if x is None:
         x = i
