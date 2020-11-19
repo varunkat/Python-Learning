@@ -17,7 +17,7 @@ max_count = None #initiating two variables to none to find max and min
 max_word = None
 min_count = None
 min_word = None
-for k, v in dic.items(): #iterating through key value pairs in DICT 
+for k, v in dic.items(): #iterating through key value pairs in DICT
     if max_count is None or max_count < v:
         max_count = v
         max_word = k
