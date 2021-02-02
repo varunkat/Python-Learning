@@ -1,0 +1,18 @@
+-----Read the json data and print the data in the following data structure.
+
+employee_id
+|
+|--employee_name
+|
+|--employee_email
+|
+|--creditBalance
+
+
+------the final output must be in the below mentioned format
+[(employeeid, employee_name, employee_email, creditbalance)]
+
+condition 1 : Only print the data for those records which have valid address
+condition 2 : sort the final output using employee_name.
+
+-------print the total creditbalance as "total_credit:"
