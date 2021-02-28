@@ -15,12 +15,22 @@ for st in logs:
 print(logs_l)
 
 
-for x in logs_d:
-    i = 1
-    for i in x:
-        logs_d.sort(key = i)
+#for x in logs_d:
 
-print(logs_d)
+    #i = 1
+    #for i in x:
+    #    logs_d.sort(key = i)
+
+#print(logs_d)
 
 
-return sorted(logs_l,key = lambda x:(x.split()[1:],x.split()[0])) + logs_d  #code fusing lambda
+#return sorted(logs_l,key = lambda x:(x.split()[1:],x.split()[0])) + logs_d  #code fusing lambda
+l =[]
+for x in logs_l:
+    i = x.split()[1:]
+    print(i)
+    l.append(i)
+
+for j in l:
+    y = j[0]
+    print(y)
