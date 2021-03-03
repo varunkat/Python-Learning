@@ -17,5 +17,3 @@ for word in words:
         score = score + 1
     count = 0
 print(score)
-
- 
